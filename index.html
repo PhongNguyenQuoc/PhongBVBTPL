@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
     <link rel="stylesheet" href="/assets/css/base.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://phongbvb.com/upload/favicon.png?v=1.0.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <title>Index</title>
 </head>
 
 <body>
+    <div class="overlay"></div>
     <header class="header">
         <div class="header__logo row justify-content-center">
             <img src="/assets/images/logo-pc.png" class="header__logo-img" alt="header__logo" />
@@ -22,20 +24,20 @@
         <nav class="header__nav">
             <ul class="nav__list row justify-content-center">
                 <li class="nav__list-item">
-                    <a href="index.html">TRANG CHỦ</a>
+                    <a href="./index.html">TRANG CHỦ</a>
                 </li>
-                <li class="nav__list-item"><a href="">VỀ PHONG BVB</a></li>
-                <li class="nav__list-item"><a href="">DỊCH VỤ</a></li>
+                <li class="nav__list-item"><a href="./about.html">VỀ PHONG BVB</a></li>
+                <li class="nav__list-item"><a href="./service.html">DỊCH VỤ</a></li>
                 <li class="nav__list-item">
-                    <a href="">DÀO TẠO BARBER</a>
+                    <a href="#">DÀO TẠO BARBER</a>
                 </li>
                 <li class="nav__list-item"><a href="">BLOG</a></li>
                 <li class="nav__list-item"><a href="">TIN TỨC</a></li>
                 <li class="nav__list-item">
-                    <a href="">CHUỖI CỬA HÀNG</a>
+                    <a href="#">CHUỖI CỬA HÀNG</a>
                 </li>
                 <li class="nav__list-item">
-                    <a href="">PHONG BVB STORE</a>
+                    <a href="#">PHONG BVB STORE</a>
                 </li>
             </ul>
         </nav>
@@ -52,24 +54,24 @@
             </ul>
         </div>
         <div class="intro">
-            <div class="intro__title row col align-items-center ">
-                <h1 class="intro__title-text row justify-content-center">
-                    <span>Giới thiệu về Phong BVB</span>
-                </h1>
-                <div class="intro__title-icon">
-                    <img src="https://phongbvb.com/public/client/images/icon/who.png?v=1.0.0" alt="intro-icon"
-                        class="icon__who">
-                </div>
-            </div>
-            <div class="intro__container row">
+            <div class="intro__container row gap-16">
                 <div class="intro__video">
-                    <iframe width="660" height="315" src="https://www.youtube.com/embed/U2T8DIYEBpg"
+                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/U2T8DIYEBpg"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
                     </iframe>
                 </div>
                 <div class="intro__content row col align-items-center">
+                    <div class="intro__title row col align-items-center ">
+                        <h1 class="intro__title-text section__title  row justify-content-center">
+                            <span>Giới thiệu về Phong BVB</span>
+                        </h1>
+                        <div class="intro__title-icon">
+                            <img src="https://phongbvb.com/public/client/images/icon/who.png?v=1.0.0" alt="intro-icon"
+                                class="icon__who">
+                        </div>
+                    </div>
                     <div class="intro__content-text">
                         Phong BVB là chuỗi tóc nam số 1 dành cho giới trẻ hiện nay. Sau 6 năm thành lập, Phong BVB hiện
                         có 27 cơ sở trên cả
@@ -96,197 +98,258 @@
             </div>
         </div>
         <div class="service">
-            <h1 class="service__title row justify-content-center">DỊCH VỤ ĐẾ VƯƠNG</h1>
+            <h1 class="service__title section__title row justify-content-center">DỊCH VỤ ĐẾ VƯƠNG</h1>
             <div class="service__container">
                 <div class="service__tab grid grid-card container justify-content-center">
-                    <input type="radio" name="tab-input" class="disabled" id="tab-1" value="1">
-                    <label class="service__tab-button" for="tab-1">Combo Cắt</label>
+                    <input type="radio" name="tab-input" class="disabled" id="tab-1" value="1" checked>
+                    <label class="service__tab-button row justify-content-space-between align-items-center" for="tab-1">
+                        Combo Cắt
+                        <img src="https://phongbvb.com/upload/dich-vu/icon-keo.png?v=1.0.0" alt="" class="button__icon">
+                    </label>
                     <input type="radio" name="tab-input" class="disabled" id="tab-2" value="2">
-                    <label class="service__tab-button" for="tab-2">Uốn Tóc</label>
+                    <label class="service__tab-button row justify-content-space-between align-items-center" for="tab-2">
+                        Uốn Tóc
+                        <img src="https://phongbvb.com/upload/dich-vu/uon-toc.png?v=1.0.0" alt="" class="button__icon">
+                    </label>
                     <input type="radio" name="tab-input" class="disabled" id="tab-3" value="3">
-                    <label class="service__tab-button" for="tab-3">Nhuộm Tóc</label>
+                    <label class="service__tab-button row justify-content-space-between align-items-center" for="tab-3">
+                        Nhuộm Tóc
+                        <img src="https://phongbvb.com/upload/dich-vu/nhuom-toc.png?v=1.0.0" alt="" class="button__icon">
+                    </label>
                     <input type="radio" name="tab-input" class="disabled" id="tab-4" value="4">
-                    <label class="service__tab-button" for="tab-4">Tóc Độc Lạ</label>
+                    <label class="service__tab-button row justify-content-space-between align-items-center" for="tab-4">
+                        Tóc Độc Lạ
+                        <img  src="https://phongbvb.com/upload/dich-vu/toc-doc-la.png?v=1.0.0" alt="" class="button__icon">
+                    </label>
                     <input type="radio" name="tab-input" class="disabled" id="tab-5" value="5">
-                    <label class="service__tab-button" for="tab-5">Tatoo Hair</label>
+                    <label class="service__tab-button row justify-content-space-between align-items-center" for="tab-5">
+                        Tatoo Hair
+                        <img  src="https://phongbvb.com/upload/dich-vu/tatoo-hair.png?v=1.0.0" alt="" class="button__icon">
+                    </label>
                 </div>
                 <div class="service__tab-content grid grid-card container" id="1">
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/anh-menu-chinh/1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/anh-menu-chinh/1.jpg?v=1.0.0" alt="">
                         <p class="card__description">1. Tư vấn kiểu tóc hợp khuôn mặt</p>
                     </div>
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/anh-menu-chinh/21.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/anh-menu-chinh/21.jpg?v=1.0.0" alt="">
                         <p class="card__description">2. Cắt tạo kiểu với barber chính hiệu</p>
                     </div>
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/anh-menu-chinh/31.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/anh-menu-chinh/31.jpg?v=1.0.0" alt="">
                         <p class="card__description">3. Cạo mặt - cạo râu sáng da ngời ngời</p>
                     </div>
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/anh-menu-chinh/41.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/anh-menu-chinh/41.jpg?v=1.0.0" alt="">
                         <p class="card__description">4. Gội xả sạch bay tóc con</p>
                     </div>
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/anh-menu-chinh/51.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/anh-menu-chinh/51.jpg?v=1.0.0" alt="">
                         <p class="card__description">5. Vuốt tóc xịt gôm mãi đẹp trai</p>
                     </div>
                 </div>
                 <div class="service__tab-content disabled" id="2">
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059927-1d333ea3874febf4870a79f3f924d1b6.jpg?v=1.0.0"
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/z3305476059927-1d333ea3874febf4870a79f3f924d1b6.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
                             <p class="card__footer-description">Uốn VIP</p>
                             <p class="card__footer-price row justify-content-center">310K</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059927-1d333ea3874febf4870a79f3f924d1b6.jpg?v=1.0.0"
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/uon/4.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Uốn VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Uốn Ziczac</p>
+                            <p class="card__footer-price row justify-content-center">400K</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059927-1d333ea3874febf4870a79f3f924d1b6.jpg?v=1.0.0"
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/z3305476059695-b2a4a49a41d38132f237a9c5ba26c2e2.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Uốn VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Uốn Ruffled</p>
+                            <p class="card__footer-price row justify-content-center">360K</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059927-1d333ea3874febf4870a79f3f924d1b6.jpg?v=1.0.0"
+
+                    
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/z3305476044947-3b20f053cabde44c2c837b2aef772098.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Uốn VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Uốn VIP Gold</p>
+                            <p class="card__footer-price row justify-content-center">360K</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059927-1d333ea3874febf4870a79f3f924d1b6.jpg?v=1.0.0"
+
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/z3305476052516-522b657f9ac77c1f9d498cd4cf9a0b65.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Uốn VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Uốn Lò Xo</p>
+                            <p class="card__footer-price row justify-content-center">700K</p>
+                        </div>
+                    </div>
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/z4155163820040-d5ab0dfeaa0e3827abb9a8fd464a89e2.jpg?v=1.0.0"
+                            alt="">
+                        <div class="card__footer row justify-content-space-between align-items-center">
+                            <p class="card__footer-description">Uốn Premloc</p>
+                            <p class="card__footer-price row justify-content-center">700K</p>
+                        </div>
+                    </div>
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/z4155163827684-9683314d33863d15238bc785373a5385.jpg?v=1.0.0"
+                            alt="">
+                        <div class="card__footer row justify-content-space-between align-items-center">
+                            <p class="card__footer-description">Uốn Diamond</p>
+                            <p class="card__footer-price row justify-content-center">450K</p>
+                        </div>
+                    </div>
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/z4155163831092-b2cf86ca612d1a3943a96553ee4d846a.jpg?v=1.0.0"
+                            alt="">
+                        <div class="card__footer row justify-content-space-between align-items-center">
+                            <p class="card__footer-description">Uốn Phồng VIP</p>
+                            <p class="card__footer-price row justify-content-center">410K</p>
+                        </div>
+                    </div>
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/z4155163805012-e5554987362bbc0d1272cd476813c5e0.jpg?v=1.0.0"
+                            alt="">
+                        <div class="card__footer row justify-content-space-between align-items-center">
+                            <p class="card__footer-description">Uốn Fly</p>
+                            <p class="card__footer-price row justify-content-center">450K</p>
+                        </div>
+                    </div>
+
+                    <div class="card flex-1">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/z4155163831126-66e2d4254ca6383eb4d968671982af86.jpg?v=1.0.0"
+                            alt="">
+                        <div class="card__footer row justify-content-space-between align-items-center">
+                            <p class="card__footer-description">Sidepart</p>
+                            <p class="card__footer-price row justify-content-center">450K</p>
                         </div>
                     </div>
                 </div>
                 <div class="service__tab-content disabled" id="3">
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059701-37f5ad8ab9ee4717ca6fe9c4d66a0cdf.jpg?v=1.0.0"
+                        <img class="can-scale"  src="https://phongbvb.com/upload/z3305476059701-37f5ad8ab9ee4717ca6fe9c4d66a0cdf.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
                             <p class="card__footer-description">Nhuộm VIP</p>
                             <p class="card__footer-price row justify-content-center">310K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059701-37f5ad8ab9ee4717ca6fe9c4d66a0cdf.jpg?v=1.0.0"
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/uon/7.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Nhuộm VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Nhuộm high light</p>
+                            <p class="card__footer-price row justify-content-center">200K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059701-37f5ad8ab9ee4717ca6fe9c4d66a0cdf.jpg?v=1.0.0"
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/uon/8.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Nhuộm VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Tẩy tóc</p>
+                            <p class="card__footer-price row justify-content-center">100K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059701-37f5ad8ab9ee4717ca6fe9c4d66a0cdf.jpg?v=1.0.0"
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/z4155163827622-b0f79ac1d8b317c2bed2c2f5182a4e10.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Nhuộm VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Nhuộm tẩy thời trang</p>
+                            <p class="card__footer-price row justify-content-center">510K - 750K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/z3305476059701-37f5ad8ab9ee4717ca6fe9c4d66a0cdf.jpg?v=1.0.0"
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/z4155163831125-78c325540e5e1655b654563336e16211.jpg?v=1.0.0"
                             alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Nhuộm VIP</p>
-                            <p class="card__footer-price row justify-content-center">310K</p>
+                            <p class="card__footer-description">Nhuộm Diamond</p>
+                            <p class="card__footer-price row justify-content-center">710K</p>
                         </div>
                     </div>
                 </div>
                 <div class="service__tab-content disabled" id="4">
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/kt-dl1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/kt-dl1.jpg?v=1.0.0"
+                            alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
                             <p class="card__footer-description">Top Knot</p>
                             <p class="card__footer-price row justify-content-center">110K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/kt-dl1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/kt-dl2.jpg?v=1.0.0"
+                            alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Top Knot</p>
-                            <p class="card__footer-price row justify-content-center">110K</p>
+                            <p class="card__footer-description">Man braid</p>
+                            <p class="card__footer-price row justify-content-center">1600K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/kt-dl1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/kt-dl3.jpg?v=1.0.0"
+                            alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Top Knot</p>
-                            <p class="card__footer-price row justify-content-center">110K</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/kt-dl1.jpg?v=1.0.0" alt="">
-                        <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Top Knot</p>
-                            <p class="card__footer-price row justify-content-center">110K</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/kt-dl1.jpg?v=1.0.0" alt="">
-                        <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Top Knot</p>
-                            <p class="card__footer-price row justify-content-center">110K</p>
+                            <p class="card__footer-description">Dreadlock</p>
+                            <p class="card__footer-price row justify-content-center">2TR - 4TR</p>
                         </div>
                     </div>
                 </div>
                 <div class="service__tab-content disabled" id="5">
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/tatoo1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/tatoo1.jpg?v=1.0.0"
+                            alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
                             <p class="card__footer-description">Hình Cơ Bản</p>
                             <p class="card__footer-price row justify-content-center">>50K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/tatoo1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/tatoo2.jpg?v=1.0.0"
+                            alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
                             <p class="card__footer-description">Hình Cơ Bản</p>
                             <p class="card__footer-price row justify-content-center">>50K</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/tatoo1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/tatoo3.jpg?v=1.0.0"
+                            alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Hình Cơ Bản</p>
-                            <p class="card__footer-price row justify-content-center">>50K</p>
+                            <p class="card__footer-description">Hình Nâng Cao</p>
+                            <p class="card__footer-price row justify-content-center">LIÊN HỆ</p>
                         </div>
                     </div>
+    
                     <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/tatoo1.jpg?v=1.0.0" alt="">
+                        <img class="can-scale"  src="https://phongbvb.com/upload/dich-vu/tatoo4.jpg?v=1.0.0"
+                            alt="">
                         <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Hình Cơ Bản</p>
-                            <p class="card__footer-price row justify-content-center">>50K</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://phongbvb.com/upload/dich-vu/tatoo1.jpg?v=1.0.0" alt="">
-                        <div class="card__footer row justify-content-space-between align-items-center">
-                            <p class="card__footer-description">Hình Cơ Bản</p>
-                            <p class="card__footer-price row justify-content-center">>50K</p>
+                            <p class="card__footer-description">Hình Nâng Cao</p>
+                            <p class="card__footer-price row justify-content-center">LIÊN HỆ</p>
                         </div>
                     </div>
                 </div>
@@ -297,28 +360,28 @@
             <h1 class="section__title row justify-content-center">TIN TỨC NỔI BẬT</h1>
             <div class="news__container container row justify-content-center">
                 <div class="card flex-1">
-                    <img src="https://phongbvb.com/upload/anhweb.jpg?v=1.0.0" />
+                    <img class="can-scale"  src="https://phongbvb.com/upload/anhweb.jpg?v=1.0.0" />
                     <h3 class="card__title">Thông báo lịch nghỉ lễ 30/4 - 1/5 Phong BVB </h3>
-                    <p class="card__description">
+                    <p class="card__description  ">
                         Với mong muốn kỳ nghỉ lễ 30/04 sắp tới anh em sẽ có những kiểu tóc đẹp nhất để đi chơi, về quê,
                         đi du lịch.
                         Phong BVB ...
                     </p>
                 </div>
                 <div class="card flex-1">
-                    <img src="https://phongbvb.com/upload/cua-hang/500-800.jpg?v=1.0.0" />
+                    <img class="can-scale"  src="https://phongbvb.com/upload/cua-hang/500-800.jpg?v=1.0.0" />
                     <h3 class="card__title">Cắt tóc Free + Tặng tinh dầu 200K khi Uốn Vip Gold/ Diamond</h3>
-                    <p class="card__description">
+                    <p class="card__description  ">
                         Bạn muốn thay đổi phong cách? muốn có ny? muốn có tóc đẹp trai đi chơi? nhưng ngặt nỗi ví hết
                         tiền. Nếu bây giờ có kiểu ...
                     </p>
                 </div>
 
-                <div class="card flex-1">
-                    <img
+                <div class="card flex-1">   
+                    <img class="can-scale" 
                         src="https://phongbvb.com/upload/anh-toc-uon/z4272147958670-992dd798f68a8e1b1f9764fadb90583e.jpg?v=1.0.0" />
                     <h3 class="card__title"> Big sale cắt tóc 1$ - Khai trương Phong BVB 178 Lê Thanh ... </h3>
-                    <p class="card__description">
+                    <p class="card__description  ">
                         Nhân dịp khai trương cơ sở 178 Lê Thanh Nghị - Hà Nội, Phong BVB xin gửi tới toàn bộ khách hàng
                         khuyến mãi khủng ...
                     </p>
@@ -335,49 +398,49 @@
             <div class="trend__container row col justify-content-center">
                 <ul id="trend__slider">
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/anh-trang-chu/z4151920346534-cf87dede1c9699e48b6524de56743c19.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/top-thinh-hanh-trong-thang/z3977087287962-3b8233ee0231b75012b448339ff48e43.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/top-thinh-hanh-trong-thang/z3977087277003-fefb6537625dcc2af21b7d18a742a559.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img src="https://phongbvb.com/upload/anh-menu-chinh/untitled-17.jpg?v=1.0.0" />
+                        <img class="can-scale"  src="https://phongbvb.com/upload/anh-menu-chinh/untitled-17.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img src="https://phongbvb.com/upload/nhism.jpg?v=1.0.0" />
+                        <img class="can-scale"  src="https://phongbvb.com/upload/nhism.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/z3396222444660-0c1b6fd3c423a5d83f50c3c203c34ada.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/z3396222347450-aa7ac6fa8c0892c59bd9a0745cbbf6e7.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/z3396222378915-0191da5c46e53099d4e5f5a982b39fd8.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/anh-trang-chu/z4151920340195-d216260478cfcfb2b47795c5a6968b12.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/anh-trang-chu/z4151920368312-2806d23352913290805529468ffad020.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img
+                        <img class="can-scale" 
                             src="https://phongbvb.com/upload/anh-trang-chu/z4151920358153-3105dbf3dff6c3cba9db6d85c1c205f8.jpg?v=1.0.0" />
                     </li>
                     <li>
-                        <img src="https://phongbvb.com/upload/anh-menu-chinh/untitled-14.jpg?v=1.0.0" />
+                        <img class="can-scale"  src="https://phongbvb.com/upload/anh-menu-chinh/untitled-14.jpg?v=1.0.0" />
                     </li>
                 </ul>
                 <a href="#" class="trend__link">TÌM BARBER SHOP GẦN NHẤT</a>

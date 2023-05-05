@@ -11,6 +11,16 @@ header.header {
     width: auto;
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    height: 56px;
+    background: black;
+    z-index: 1000;
+}
 .nav__list {
     font-size: 18px;
     gap: 32px;
@@ -50,11 +60,16 @@ header.header {
 
 .intro {
     background: url(https://phongbvb.com/public/client/images/icon/condoi.png);
-        background-position: left 1.75rem;
+    background-position: left 1.75rem;
     background-repeat: no-repeat;
     background-size: 45rem auto;
     background-color: #191a1d;
     padding: 1rem 3rem 3rem;
+    line-height: 2;
+}
+
+.intro__container {
+    align-items: end;
 }
 
 .intro__video {
@@ -63,13 +78,6 @@ header.header {
 
 .intro__content {
     flex: 1;
-}
-.intro__title {
-    height: 90px;
-    background-image: url(https://phongbvb.com/public/client/images/icon/gach-cheo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 71px;
 }
 
 .icon__who {
@@ -94,37 +102,34 @@ header.header {
 /* End intro section */
 
 /* SERVICE SECTION */
-.service__title {
-       height: 90px;
-    background-image: url(https://phongbvb.com/public/client/images/icon/gach-cheo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .service__tab {
     margin-bottom: 32px;
 }
 
+.service__tab-content {
+    margin-top: 32px !important;
+}
+
 input[name='tab-input']:checked + .service__tab-button {
     background-color: yellow;
 }
+
+.button__icon {
+    width: 32px;
+}
 .service__tab-button {
-    padding: 11px 0;
+    padding: 11px 8px;
     transform: skewX(-10deg);
     background-color: white;
     font-size: 16px;
     color: black;
+    cursor: pointer;
 }
 
 .grid-card {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 18px;
-}
-
-.card__footer-price {
-    width: 70px;
-    height: 40px;
-    background-color: yellow;
 }
 
 /* END SERVICE SECTION */
@@ -230,6 +235,7 @@ input[name='tab-input']:checked + .service__tab-button {
 /* END franchise SECTION */
 
 /* FOOTER SECTION */
+
 .footer__container {
     padding-top: 52px !important;
     padding-bottom: 32px !important;

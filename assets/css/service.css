@@ -1,0 +1,21 @@
+.curling-hair__tab-content {
+    gap: 16px;
+}
+
+.card {
+    font-size: 18px;
+}
+.card__description {
+    padding: 8px 0;
+}
+
+.curling-hair__tab-content > .card > .card__footer > .card__footer-price {
+    height: 70px;
+    width: 50px;
+}
+
+.hair-dying__container, 
+.weird-hard__container,
+.tatoo-hair__container  {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
