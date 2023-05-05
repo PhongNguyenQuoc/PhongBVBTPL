@@ -12,13 +12,13 @@ $(document).ready(function ()
     })
 
     $(window).on('scroll', function() {
-        var headerHeight = $('.header').outerHeight(); // Lấy chiều cao của phần tử header
-        var scrollTop = $(window).scrollTop(); // Lấy vị trí scroll hiện tại của trình duyệt
-      
+        var headerHeight = $('.header').outerHeight(); 
+        var scrollTop = $(window).scrollTop(); 
+        
         if (scrollTop > headerHeight) {
-          $('.header__nav').addClass('fixed'); // Thêm lớp fixed để cố định phần tử header
+          $('.header__nav').addClass('fixed'); 
         } else {
-          $('.header__nav').removeClass('fixed'); // Loại bỏ lớp fixed nếu không cần cố định phần tử header
+          $('.header__nav').removeClass('fixed'); 
         }
       });
 
