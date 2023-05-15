@@ -1,0 +1,33 @@
+
+.tab {
+    padding: 32px 0;
+}
+
+.content__top-right-card {
+    grid-template-columns: .308fr .7fr;
+}
+
+.card__footer {
+    text-align: initial;
+}
+
+.content__bot {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pagination {
+    padding: 16px 0;
+}
+.pagination__button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+.pagination__button:hover, .pagination__button--active  {
+    background: black;
+    color: white;
+}
