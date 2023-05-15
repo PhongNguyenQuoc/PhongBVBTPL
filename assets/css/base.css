@@ -194,7 +194,7 @@ H1,h2,h3,h4,h5,h6 {
 
 .button-link-inactive {
     appearance: button;
-    width: 158px;
+    width: 100%;
     text-align: center;
     background: rgb(243, 243, 243);
     color: black;
@@ -204,7 +204,7 @@ H1,h2,h3,h4,h5,h6 {
 
 .button-link-active {
     appearance: button;
-    width: 158px;
+    width: 100%;
     text-align: center;
     background: yellow;
     color: black;
