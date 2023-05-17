@@ -46,6 +46,32 @@ header.header {
     left: 0;
 }
 
+.nav__list-item:hover > .menu-extend {
+    display: block;
+}
+
+.menu-extend {
+    position: absolute;
+    width: max-content;
+    left: -50%;
+    display: none;
+}
+
+.menu-extend__text:hover {
+    background-color: yellow;
+    color: black;
+}
+.menu-extend__text {
+    padding: 11px 20px;
+    border-bottom: 2px solid yellow;
+    font-size: 18px;
+}
+
+.item__icon {
+    font-size: 8px;
+    vertical-align: super;
+}
+
 [data-slider-id='xsokdh'] .slider {
     position: relative;
     max-width: 100% !important;

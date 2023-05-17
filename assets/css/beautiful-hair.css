@@ -31,3 +31,53 @@
     background: black;
     color: white;
 }
+
+.content-row {
+    padding: 24px;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.content-row--right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 51%;
+}
+
+.content-row--left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 51%;
+}
+.line {
+    width: 10%;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.empty-end {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.empty-start {
+        width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.join-now {
+    padding: 12px 24px;
+    background-color: yellow;
+    width: fit-content;
+    margin-top: 24px;
+}

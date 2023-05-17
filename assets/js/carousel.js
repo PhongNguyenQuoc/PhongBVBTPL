@@ -31,4 +31,26 @@ $(document).ready(function ()
         minSlides: 1,
         maxSlides: 1,
     })
+
+    $('#award-carousel').bxSlider({
+        slideWidth: 400,
+        minSlides: 3,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideMargin: 16,
+        infiniteLoop: true,
+        auto: true,
+        pager: false,
+    })
+
+    $('#activity__carousel').bxSlider({
+        slideWidth: 400,
+        minSlides: 3,
+        maxSlides: 4,
+        moveSlides: 1,
+        slideMargin: 16,
+        infiniteLoop: true,
+        auto: true,
+        pager: false,
+    })
 })
