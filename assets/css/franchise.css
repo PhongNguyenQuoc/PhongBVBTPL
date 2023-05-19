@@ -1,0 +1,45 @@
+.content-row {
+    padding: 24px;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.content-row--right {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+}
+
+.line {
+    width: 10%;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.empty-end {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.power {
+    background: url(https://phongbvb.com/public/client/images/nhuong-quyen-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0px;
+}
+.power__container {
+    width: 75%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.power__container > .flex-1 > img {
+    width: auto !important;
+}
+
