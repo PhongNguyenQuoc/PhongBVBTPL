@@ -53,4 +53,23 @@ $(document).ready(function ()
         auto: true,
         pager: false,
     })
+
+    $('#transfer').bxSlider({
+        infiniteLoop: true,
+        pager: false,
+        auto: true,
+        moveSlides: 1,
+        minSlides: 1,
+        maxSlides: 1,
+    })
+    $('#register__carousel').bxSlider({
+        slideWidth: 400,
+        minSlides: 4,
+        maxSlides: 4,
+        moveSlides: 1,
+        slideMargin: 16,
+        infiniteLoop: true,
+        auto: true,
+        pager: false,
+    })
 })

@@ -55,6 +55,11 @@ header.header {
     width: max-content;
     left: -50%;
     display: none;
+    z-index: 100;
+}
+
+.menu-extend__text {
+    display: block;
 }
 
 .menu-extend__text:hover {

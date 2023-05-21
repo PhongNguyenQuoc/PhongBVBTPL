@@ -6,13 +6,16 @@
 .chain-store__container {
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+.card {
+    height: 100%;
+}
 .card__title {
     font-size: 18px !important;
 }
 .card__description {
     text-align: left;
+    padding: 0 3% 0 3%;
 }
 .card__description + .card__description {
-    padding: 0;
+   padding: 0 3% 3% 3%;
 }
